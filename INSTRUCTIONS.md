@@ -1,4 +1,4 @@
-# 🛠️ Cronograma de Circuitos Secuenciales / Zirkuitu Sekuentzialen Kronograma / Sequential Circuit Timing Diagram
+# 🛠️ Zirkuitu Sekuentzialen Kronograma
 
 | **Alumnos** | **Curso** | **Módulo** |
 |-------------|-----------|------------|
@@ -6,22 +6,14 @@
 
 ---
 
-## 📌 Ejercicio / Ariketa / Exercice
-
-**Ejercicio (ES): (ESCRIBE EL NÚMERO)**  
-| Nombre                     | Número de Chip | Símbolo         | Descripción del Funcionamiento                                                                 |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? | 
+## 📌 Ariketa
 
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
 | ? | ?             | ? | ? |  
 
-**Exercice (EN): (WRITE THE NUMBER)**  
-| Name                     | Chip number | Symbol         | Description of Operation                                                               |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ? | ? | ? |  
+
 
 ---
 
@@ -36,61 +28,59 @@
 
 ----
 
-## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
-
-*(Añade aquí la captura de proteus)*
-
----
-
-## 🔲 Resultado del Cronograma / Kronogramaren Emaitza / Timing Diagram Result
-Circuito A
-
-*(Añade aquí la captura del WaveDrom)*
-
-Circuito B
-
-*(Añade aquí la captura del WaveDrom)*
-
-... AÑADE LO MÁS CIRCUITOS
+## 🔲 Kronogramaren Emaitza
+<img width="649" height="152" alt="Captura de pantalla 2026-01-21 134630" src="https://github.com/user-attachments/assets/934e34c1-c0c6-435e-846c-d3a2b7203b24" />
+<img width="631" height="136" alt="Captura de pantalla 2026-01-21 134707" src="https://github.com/user-attachments/assets/ff758713-c61d-4270-8066-043b449cb197" />
 
 ---
 
 
-## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
-Circuito A
+## 🔲 Kronogramaren Kodea
+Ejercicio 2: T flanco ascendente
 
-*(Añade aquí el código del WaveDrom)*
+{signal: [
 
-Circuito B
+  {name: 'T',   wave: '010101....0...101'},
+  
+  {name: 'clk', wave: 'P................'},
+  
+  {},
+  
+  {name: 'Q',   wave: '0.1.0.1.......0.1'},
+  
+  {name: '-Q',  wave: '1.0.1.0.......1.0'}
 
-*(Añade aquí el código del WaveDrom)*
+]}
 
-... AÑADE LO MÁS CIRCUITOS
+Ejercicio 2: T flanco descendente
+
+{signal: [
+
+  {name: 'T',   wave: '010101....0...101'},
+  
+  {name: 'clk', wave: 'N................'},
+  
+  {},
+  
+  {name: 'Q',   wave: '0.1.0.1.0.1.....0'},
+  
+  {name: '-Q',  wave: '1.0.1.0.1.0.....1'}
+
+]}
+
+
+
 
 ---
 
 
-## 📤 Entrega / Igo / Upload  
+## 📤 Igo
 
 ➡️ **Instrucciones:**  
-
-- **ES:** Sube los siguientes archivos. Todos los archivos subidos han de tener tu nombre.  
-  - Una foto del símbolo.  
-  - El archivo en Proteus y una captura de imagen de cada circuito en Proteus.  
-  - Capturas de cada resultado del Wavedrom (solo el gráfico).  
-  - **ATENCIÓN:** El código del cronograma TIENE que ser código, no una imagen.
 
 - **EU:** Igo hurrengo fitxategiak. Igotako fitxategi guztiek zure izena eduki behar dute.  
   - Sinboloaren argazki bat.  
   - Proteus fitxategia eta zirkuitu bakoitzaren irudia (captura) Proteusen.  
   - Wavedrom bakoitzaren emaitzaren kaptura (grafikoa bakarrik).  
   - **KONTUZ:** Kronogramaren kodea kodea izan behar da, ez irudi bat.
-
-- **EN:** Upload the following files. All uploaded files must include your name.  
-  - A photo of the symbol.  
-  - The Proteus file and an image capture of each circuit in Proteus.  
-  - Uno capture of each Wavedrom result (graph only).  
-  - **ATTENTION:** The schedule code MUST be real code, not an image.
-
-
 
