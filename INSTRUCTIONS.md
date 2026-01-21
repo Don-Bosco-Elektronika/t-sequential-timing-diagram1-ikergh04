@@ -6,17 +6,6 @@
 
 ---
 
-## 📌 Ariketa
-
-**Ariketa (EU): (ZENBAKIA IDATZI)**  
-| Izena                     |                                                                |
-|---------------------------|
-| T |
-
-
-
----
-
 ## Tabla de la verdad
 
 | Entrada A | Entrada B | Entrada C | Salida    | Salida |
